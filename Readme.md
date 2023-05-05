@@ -14,4 +14,7 @@ JIT Chatbot is a web application that answers students' basic queries about thei
 ## Authors
 
 - [Abhishek Mishra](https://github.com/mishrababhishek)
+- [Vipin Pandey]()
+- [Pravin Prajapati]()
+- [Uttkarsh Yadav]()
 
