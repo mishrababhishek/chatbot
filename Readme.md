@@ -1,4 +1,4 @@
-# JIT Chatbot
+# JIT Chatbot 🤖
 
 JIT Chatbot is a web application that answers students' basic queries about their college program. It uses Natural Language Processing to understand and respond to user queries, and is built using Python's TensorFlow library, FastAPI, Uvicorn, React, and Tailwind CSS. The frontend is designed with a modern interface using React and Tailwind CSS, while the backend utilizes FastAPI and Uvicorn for fast and efficient handling of requests. The chatbot is customizable, allowing colleges to tailor the bot's responses to their specific requirements.
 
