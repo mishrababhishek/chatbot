@@ -1,0 +1,782 @@
+[
+ {
+  "tag": "ai&ds_department",
+  "questions": [
+   "ai&ds department?",
+   "ai&ds engineering course ?",
+   "about ai&ds engineering",
+   "what about ai&ds engineering ?",
+   "ai&ds engineering"
+  ],
+  "response": [
+   "What do you want to know about Computer Engineering? You can choose one of the following."
+  ],
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "ai&ds_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "ai&ds_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "ai&ds_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "ai&ds_duration"
+   }
+  ]
+ },
+ {
+  "tag": "ai&ds_lab",
+  "questions": [
+   "ai&ds engineering lab",
+   "lab in ai&ds engineering",
+   "how many labs are their in ai&ds department",
+   "which are the lab in ai&ds engineering"
+  ],
+  "response": [
+   "The college has well equipped and functional Computer Labs consisting of Unix Lab, Computer Programming Lab, Data Structural Lab, Computer Graphics Lab, OOP Lab, Operating System Lab, Data Processing Lab, System Programming Lab, DBMS Lab, Compiler Design Lab, Internet programming Lab, Artificial Intelligence Lab, Internet Surfing Lab, etc."
+  ],
+  "related": []
+ },
+ {
+  "tag": "ai&ds_seat",
+  "questions": [
+   "how many seat are their inai&ds engineering",
+   "number of seat in ai&ds engineering",
+   "strength of ai&ds engineering"
+  ],
+  "response": [
+   "The number of seats in B.E - AI&DS offered at JIT college are 120"
+  ],
+  "related": []
+ },
+ {
+  "tag": "ai&ds_intake",
+  "questions": [
+   "how much intake is their in ai&ds engineering",
+   "number of intake in ai&ds engineering"
+  ],
+  "response": [
+   "The number of intake in B.E - AI&DS offered at JIT college are 120"
+  ],
+  "related": []
+ },
+ {
+  "tag": "ai&ds_staff",
+  "questions": [
+   "How many staff are their in ai&dsengineering",
+   "Number of staff inai&ds engineering",
+   "staff inai&ds engineering",
+   "number of staff in ai&ds engineering"
+  ],
+  "response": [
+   "Total number of 12 staff are their in AI&DS engineering "
+  ],
+  "related": []
+ },
+ {
+  "tag": "ai&ds_eligibility criteria",
+  "questions": [
+   "eligibility criteria forai&dsengineering"
+  ],
+  "response": [
+   "The criteria for B.E AI&DS engineering is minimum aggregate of 60% in 10+2 and diploma "
+  ],
+  "related": []
+ },
+ {
+  "tag": "ai&ds_Fee",
+  "questions": [
+   "ai&ds engineering fee",
+   "fee strucutre of ai&ds engineering",
+   "what is the fee for ai&ds engineering"
+  ],
+  "response": [
+   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year "
+  ],
+  "related": []
+ },
+ {
+  "tag": "ai&ds_duration",
+  "questions": [
+   "duration of ai&ds engineering",
+   "ai&ds engineering duration"
+  ],
+  "response": [
+   "The duration for AI&DS engineering offered at JIT college is 4 Years "
+  ],
+  "related": []
+ },
+ {
+  "tag": "ai&ds_located",
+  "questions": [
+   "where is ai&ds engineering",
+   "where is ai&ds engineering located in college",
+   "strength ofai&dsengineering"
+  ],
+  "response": [
+   "You can find the AI&DS engineering at the First floor of main building on left hand side from morning 9 AM to 5 PM MONDAY to SATURDAY. Contact to XYZ 1234554321"
+  ],
+  "related": []
+ },
+ {
+  "tag": "civil_department",
+  "questions": [
+   "civil department?",
+   "civil engineering course ?",
+   "about civil engineering",
+   "what about civil engineering ?",
+   "civil engineering"
+  ],
+  "response": [
+   "What do you want to know about Computer Engineering? You can choose one of the following."
+  ],
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "civil_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "civil_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "civil_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "civil_duration"
+   }
+  ]
+ },
+ {
+  "tag": "civil_lab",
+  "questions": [
+   "civil engineering lab",
+   "lab in civil engineering",
+   "how many labs are their in civil department",
+   "which are the lab in civil engineering"
+  ],
+  "response": [
+   "Following Labs are there for the students pursuing B.Tech in civil Engineering: Material Lab, Fluid Mechanics Lab, Surveying Lab, Engineering Geology Lab, Drawing Lab, Geoinformatics Lab, Hydraulic Machine Lab, Geotechnical Engineering Lab, Environmental Engineering Lab, Transportation Engineering Lab, Structural Detailing Lab, Cad Lab-1, Quantity Survey & Estimation Lab"
+  ],
+  "related": []
+ },
+ {
+  "tag": "civil_seat",
+  "questions": [
+   "how many seat are their in civil engineering",
+   "number of seat in civil engineering",
+   "strength of civil engineering"
+  ],
+  "response": [
+   "The number of seats in B.E - civil offered at JIT college are 60"
+  ],
+  "related": []
+ },
+ {
+  "tag": "civil_intake",
+  "questions": [
+   "how many intake are their in civil engineering",
+   "number of intake in civil engineering"
+  ],
+  "response": [
+   "The number of intake in B.E -civil offered at JIT college are 60"
+  ],
+  "related": []
+ },
+ {
+  "tag": "civil_Fee",
+  "questions": [
+   "civil engineering fee",
+   "fee strucutre of civil engineering",
+   "what is the fee for civil engineering"
+  ],
+  "response": [
+   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year "
+  ],
+  "related": []
+ },
+ {
+  "tag": "civil_staff",
+  "questions": [
+   "how many staff are their in civil engineering",
+   "number of staff in civil engineering",
+   "staff in civil engineering",
+   "number of staff in civil engineering"
+  ],
+  "response": [
+   "Total number of 12 staff are their in civil engineering "
+  ],
+  "related": []
+ },
+ {
+  "tag": "civil_eligibility_criteria",
+  "questions": [
+   "eligibility criteria for civil engineering"
+  ],
+  "response": [
+   "The criteria for B.E civil engineering is minimum aggregate of 60% in 10+2 and diploma "
+  ],
+  "related": []
+ },
+ {
+  "tag": "civil_duration",
+  "questions": [
+   "duration of civil engineering",
+   "civil engineering duration"
+  ],
+  "response": [
+   "The duration for Civil engineering offered at JIT college is 4 Years "
+  ],
+  "related": []
+ },
+ {
+  "tag": "civil_located",
+  "questions": [
+   "where is civil engineering",
+   "where is civil engineering located in college",
+   "strength of civil engineering"
+  ],
+  "response": [
+   "You can find the civil engineering at the First floor of main building on Right hand side from morning 9 AM to 5 PM MONDAY to SATURDAY. Contact to XYZ 1234554321"
+  ],
+  "related": []
+ },
+ {
+  "tag": "computer_department",
+  "questions": [
+   "compuyer engineering",
+   "computer degree"
+  ],
+  "response": [
+   "What do you want to know about Computer Engineering? You can choose one of the following."
+  ],
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "computer_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "computer_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "computer_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "computer_duration"
+   }
+  ]
+ },
+ {
+  "tag": "computer_fee",
+  "questions": [
+   "computer engineering fee",
+   "fee structure of computer engineering",
+   "what is the fee for computer engineering"
+  ],
+  "response": [
+   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year"
+  ],
+  "related": []
+ },
+ {
+  "tag": "computer_lab",
+  "questions": [
+   "computer engineering lab",
+   "lab in computer engineering",
+   "how many labs are their in computer department",
+   "which are the lab in computer engineering"
+  ],
+  "response": [
+   "The college has well equipped and functional Computer Labs consisting of Unix Lab, Computer Programming Lab, Data Structural Lab, Computer Graphics Lab, OOP Lab, Operating System Lab, Data Processing Lab, System Programming Lab, DBMS Lab, Compiler Design Lab, Internet programming Lab, Artificial Intelligence Lab, Internet Surfing Lab, etc."
+  ],
+  "related": []
+ },
+ {
+  "tag": "computer_seat",
+  "questions": [
+   "how many seat are their in computer engineering",
+   "number of seat in computer engineering",
+   "strength of computer engineering"
+  ],
+  "response": [
+   "The number of seats in B.E - computer offered at JIT college are 120"
+  ],
+  "related": []
+ },
+ {
+  "tag": "computer_intake",
+  "questions": [
+   "how many intake are their in computer engineering",
+   "number of intake in computer engineering"
+  ],
+  "response": [
+   "The number of intake in B.E - computer offered at JIT college are 120"
+  ],
+  "related": []
+ },
+ {
+  "tag": "computer_staff",
+  "questions": [
+   "How many staff are their in computer engineering",
+   "Number of staff in computer engineering",
+   "staff in computer engineering",
+   "number of staff in computer engineering"
+  ],
+  "response": [
+   "Total number of 12 staff are their in computer engineering "
+  ],
+  "related": []
+ },
+ {
+  "tag": "computer_eligibility_criteria",
+  "questions": [
+   "eligibility criteria for computer engineering"
+  ],
+  "response": [
+   "The criteria for B.E computer engineering is minimum aggregate of 60% in 10+2 and Diploma"
+  ],
+  "related": []
+ },
+ {
+  "tag": "computer_duration",
+  "questions": [
+   "duration of computer engineering",
+   "computer engineering  duration"
+  ],
+  "response": [
+   "The duration for Computer engineering offered at JIT college is 4 Years"
+  ],
+  "related": []
+ },
+ {
+  "tag": "computer_location",
+  "questions": [
+   "where is computer engineering",
+   "where is computer engineering located in college",
+   "strength ofcomputer engineering"
+  ],
+  "response": [
+   "You can find the computer engineering at the First floor of main building on left hand side from morning 9 AM to 5 PM MONDAY to SATURDAY. Contact to XYZ 1234554321"
+  ],
+  "related": []
+ },
+ {
+  "tag": "help",
+  "questions": [
+   "help",
+   "i do need help",
+   "i need help",
+   "please",
+   "please help me",
+   "pls help me",
+   "pls guide me",
+   "please guide me",
+   "can you help me",
+   "could you help me",
+   "will you help me"
+  ],
+  "response": [
+   "Hi ! How may i help you."
+  ],
+  "related": [
+   {
+    "text": "AboutCollege",
+    "tag": "about_college"
+   },
+   {
+    "text": "course",
+    "tag": "courses"
+   },
+   {
+    "text": "AdmissionEnquiry",
+    "tag": "admission_enquiry"
+   },
+   {
+    "text": "Contact",
+    "tag": "contact"
+   },
+   {
+    "text": "ScholarShip",
+    "tag": "scholarship"
+   }
+  ]
+ },
+ {
+  "tag": "admission_enquiry",
+  "questions": [
+   "admission process?",
+   "admission 2024",
+   "admission form for 2024",
+   "computer engineering admission process",
+   "electrical engineering admission process",
+   "civil engineering admission process",
+   "mechanical engineering admission process",
+   "it engineering admission process"
+  ],
+  "response": [
+   "Go to following link for further process- https://docs.google.com/forms/d/e/1FAIpQLSc--tMkJF6E2WHr5pu024taG0hDYZvNNgW2ue0elEweYK5PmQ/viewform"
+  ],
+  "related": []
+ },
+ {
+  "tag": "about_college",
+  "questions": [
+   "about college",
+   "information regarding college",
+   "college",
+   "college information"
+  ],
+  "response": [
+   "Go to following link for further process-https://www.jitnashik.edu.in/"
+  ],
+  "related": []
+ },
+ {
+  "tag": "courses",
+  "questions": [
+   "courses offered in college",
+   "which courses are available in college",
+   "which departments are available in college",
+   "how many departments are available in college",
+   "courses"
+  ],
+  "response": [
+   "Following courses are offered by college: COMPUTER Engineering, IT Engineering, CIVIL Engineering, ELECTRICAL Engineering, MECHANICAL Engineering, AI & DATA SCIENCE."
+  ],
+  "related": []
+ },
+ {
+  "tag": "contact",
+  "questions": [
+   "contact"
+  ],
+  "response": [
+   "Go to following link for further process-https://www.jitnashik.edu.in/contact_us.php"
+  ],
+  "related": []
+ },
+ {
+  "tag": "scholarship",
+  "questions": [
+   "scholarship",
+   "apply to scholarship"
+  ],
+  "response": [
+   "Go to following link for further process-https://mahadbt.maharashtra.gov.in/Login/Login"
+  ],
+  "related": []
+ },
+ {
+  "tag": "department",
+  "questions": [
+   "department of college",
+   "how many department are there",
+   "what are all the departments in college?",
+   "which department are in college?",
+   "how many engineering department are there?"
+  ],
+  "response": [
+   "Computer Engineering, IT Engineering, Electrical Engineering, Mechanical Engineering, E&T Engineering, AI&DS Engineering, Civil Engineering"
+  ],
+  "related": [
+   {
+    "text": "computer",
+    "tag": "computer_department"
+   },
+   {
+    "text": "civil",
+    "tag": "civil_department"
+   },
+   {
+    "text": "electrical",
+    "tag": "elecrtrical_department"
+   },
+   {
+    "text": "mechanical",
+    "tag": "mechanical_department"
+   },
+   {
+    "text": "AI&DS",
+    "tag": "ai&ds_department"
+   }
+  ]
+ },
+ {
+  "tag": "not_department",
+  "questions": [
+   "how many not department are there",
+   "how many department are not there in college",
+   "what are all not the departments in college?",
+   "which department is not in college?"
+  ],
+  "response": [
+   "Chemical Engineering, Aerospace Engineering, Agricultural Engineering, Biomedical Engineering, etc"
+  ],
+  "related": [
+   {
+    "text": "computer",
+    "tag": "computer_department"
+   },
+   {
+    "text": "civil",
+    "tag": "civil_department"
+   },
+   {
+    "text": "mechanical",
+    "tag": "mechanical_department"
+   },
+   {
+    "text": "AI&DS",
+    "tag": "ai&ds_department"
+   }
+  ]
+ },
+ {
+  "tag": "electrical_department",
+  "questions": [
+   "electrical department?",
+   "electrical engineering course ?",
+   "about electrical engineering",
+   "what about electrical engineering ?",
+   "electrical engineering"
+  ],
+  "response": [
+   "What do you want to know about Computer Engineering? You can choose one of the following."
+  ],
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "electrical_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "electrical_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "electrical_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "electrical_duration"
+   }
+  ]
+ },
+ {
+  "tag": "electrical_Fee",
+  "questions": [
+   "electrical engineering fee",
+   "fee strucutre of electrical engineering",
+   "what is the fee for electrical engineering"
+  ],
+  "response": [
+   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year "
+  ],
+  "related": []
+ },
+ {
+  "tag": "electrical_duration",
+  "questions": [
+   "duration of electrical engineering",
+   "electrical engineering duration"
+  ],
+  "response": [
+   "The duration for Electrical engineering offered at JIT college is 4 Years "
+  ],
+  "related": []
+ },
+ {
+  "tag": "electrical_lab",
+  "questions": [
+   "electrical engineering lab",
+   "lab in Electrical engineering",
+   "how many labs are their in Electrical department",
+   "which are the lab in Electrical engineering"
+  ],
+  "response": [
+   "Following Labs are there for the students pursuing B.E in Electrical Engineering: Control System Lab, Electric Drives Lab, Basic Electrical Lab, EMEC Lab, Network Lab, Power Electronics Lab & Power System Protection Lab."
+  ],
+  "related": []
+ },
+ {
+  "tag": "electrical_seat",
+  "questions": [
+   "how many seat are their in electrical engineering",
+   "number of seat in electrical engineering",
+   "strength of electrical engineering"
+  ],
+  "response": [
+   "The number of seats in B.E - Electrical offered at JIT college are 60"
+  ],
+  "related": []
+ },
+ {
+  "tag": "electrical_intake",
+  "questions": [
+   "how many intake are their in electrical engineering",
+   "number of intake in electrical engineering"
+  ],
+  "response": [
+   "The number of intake in B.E - electrical offered at JIT college are 120"
+  ],
+  "related": []
+ },
+ {
+  "tag": "electrical_staff",
+  "questions": [
+   "how many staff are their in electrical engineering",
+   "number of staff in electrical engineering",
+   "staff in electrical engineering",
+   "number of staff in electrical engineering"
+  ],
+  "response": [
+   "Total number of 12 staff are their in electrical engineering "
+  ],
+  "related": []
+ },
+ {
+  "tag": "electrical_eligibility_criteria",
+  "questions": [
+   "eligibility criteria for electrical engineering"
+  ],
+  "response": [
+   "The criteria for B.E Electrical engineering is minimum aggregate of 60% in 10+2 "
+  ],
+  "related": []
+ },
+ {
+  "tag": "electrical_located",
+  "questions": [
+   "where is electrical engineering",
+   "where is electrical engineering located in college",
+   "strength of electrical engineering"
+  ],
+  "response": [
+   "You can find the Electrical engineering at the entrance of main building on right hand side from morning 9 AM to 5 PM MONDAY to SATURDAY. Contact to XYZ 1234554321"
+  ],
+  "related": []
+ },
+ {
+  "tag": "mechanical_department",
+  "questions": [
+   "mechanical Department?",
+   "mechanical Engineering course ?",
+   "about mechanical engineering",
+   "what about mechanical engineering ?",
+   "mechanical engineering"
+  ],
+  "response": [
+   "What do you want to know about Computer Engineering? You can choose one of the following."
+  ],
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "mechnaical_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "mechanical_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "mechanical_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "mechanical_duration"
+   }
+  ]
+ },
+ {
+  "tag": "mechanical_lab",
+  "questions": [
+   "mechaincal engineering lab",
+   "lab in mechanical engineering",
+   "how many labs are their in mechanical department",
+   "which are the lab in mechanical engineering"
+  ],
+  "response": [
+   "Following Labs are there for the students pursuing B.E in Mechanical Engineering: Production Lab, Design Lab, Thermal and Fluid Lab."
+  ],
+  "related": []
+ },
+ {
+  "tag": "mechanical_duration",
+  "questions": [
+   "duration of mechanical engineering",
+   "mechanical engineering duration"
+  ],
+  "response": [
+   "The duration for Mechanical engineering offered at JIT college is 4 Years "
+  ],
+  "related": []
+ },
+ {
+  "tag": "mechanical_Fee",
+  "questions": [
+   "mechanical engineering fee",
+   "fee strucutre of mechanical engineering",
+   "what is the fee for mechanical6 engineering"
+  ],
+  "response": [
+   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year "
+  ],
+  "related": []
+ },
+ {
+  "tag": "mechanical_seat",
+  "questions": [
+   "how many seat are their in mechanical engineering",
+   "number of seat in mechanical engineering"
+  ],
+  "response": [
+   "The number of seats in B.E - Mechanical offered at JIT college are 120"
+  ],
+  "related": []
+ },
+ {
+  "tag": "mechanical_intake",
+  "questions": [
+   "how many intake are their in mechanical engineering",
+   "number of intake in mechanical engineering"
+  ],
+  "response": [
+   "The number of intake in B.E - Mechanical offered at JIT college are 120"
+  ],
+  "related": []
+ },
+ {
+  "tag": "mechanical_staff",
+  "questions": [
+   "how many staff are their in mechanical engineering",
+   "number of staff in mechanical engineering",
+   "staff in mechanical engineering",
+   "number of staff in mechanical engineering"
+  ],
+  "response": [
+   "Total number of 12 staff are their in mechanical engineering "
+  ],
+  "related": []
+ },
+ {
+  "tag": "mechanical_eligibility_criteria",
+  "questions": [
+   "eligibility criteria for mechanical engineering"
+  ],
+  "response": [
+   "The criteria for B.E Mechanical engineering is minimum aggregate of 60% in 10+2 "
+  ],
+  "related": []
+ }
+]

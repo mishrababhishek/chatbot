@@ -1,0 +1,28 @@
+.bg-custom-image {
+  background-image: url("/public/background.png");
+  background-size: auto;
+  background-position: center;
+}
+
+.control-button {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  color: black;
+  font-size: x-large;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px black;
+  transition: all 0.2s ease-in-out;
+}
+
+.control-button:hover {
+  transform: scale(1.2);
+  transition: all 0.1s ease-in-out;
+}
+
+.control-button:active {
+  transform: scale(1);
+}

@@ -1,0 +1,28 @@
+{
+    "testing": false,
+    "embedding": 15,
+    "sequence_to_vector": {
+        "window": 10,
+        "epochs": 500,
+        "tokenization": "lemmatize",
+        "learning_rate": 0.001,
+        "batch_size": 128
+    },
+    "vector_to_class": {
+        "epochs": 1000,
+        "learning_rate": 0.001,
+        "batch_size": 128,
+        "netowrk": [
+            {
+                "type": "dense",
+                "neurons": 10,
+                "activation": "relu"
+            },
+            {
+                "type": "dense",
+                "neurons": 10,
+                "activation": "relu"
+            }
+        ]
+    }
+}

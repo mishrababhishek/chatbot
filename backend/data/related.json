@@ -1,0 +1,178 @@
+[
+ {
+  "intent": "ai&ds_department",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "ai&ds_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "ai&ds_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "ai&ds_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "ai&ds_duration"
+   }
+  ]
+ },
+ {
+  "intent": "civil_department",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "civil_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "civil_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "civil_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "civil_duration"
+   }
+  ]
+ },
+ {
+  "intent": "computer_department",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "computer_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "computer_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "computer_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "computer_duration"
+   }
+  ]
+ },
+ {
+  "intent": "help",
+  "related": [
+   {
+    "text": "AboutCollege",
+    "tag": "about_college"
+   },
+   {
+    "text": "course",
+    "tag": "courses"
+   },
+   {
+    "text": "AdmissionEnquiry",
+    "tag": "admission_enquiry"
+   },
+   {
+    "text": "Contact",
+    "tag": "contact"
+   },
+   {
+    "text": "ScholarShip",
+    "tag": "scholarship"
+   }
+  ]
+ },
+ {
+  "intent": "department",
+  "related": [
+   {
+    "text": "computer",
+    "tag": "computer_department"
+   },
+   {
+    "text": "civil",
+    "tag": "civil_department"
+   },
+   {
+    "text": "electrical",
+    "tag": "elecrtrical_department"
+   },
+   {
+    "text": "mechanical",
+    "tag": "mechanical_department"
+   },
+   {
+    "text": "AI&DS",
+    "tag": "ai&ds_department"
+   }
+  ]
+ },
+ {
+  "intent": "not_department",
+  "related": [
+   {
+    "text": "computer",
+    "tag": "computer_department"
+   },
+   {
+    "text": "civil",
+    "tag": "civil_department"
+   },
+   {
+    "text": "mechanical",
+    "tag": "mechanical_department"
+   },
+   {
+    "text": "AI&DS",
+    "tag": "ai&ds_department"
+   }
+  ]
+ },
+ {
+  "intent": "electrical_department",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "electrical_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "electrical_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "electrical_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "electrical_duration"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_department",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "mechnaical_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "mechanical_fee"
+   },
+   {
+    "text": "Eligibilty Criteria",
+    "tag": "mechanical_eligibility_criteria"
+   },
+   {
+    "text": "Duration",
+    "tag": "mechanical_duration"
+   }
+  ]
+ }
+]

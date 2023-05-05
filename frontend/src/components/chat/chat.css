@@ -1,0 +1,23 @@
+.chat-message-client, .chat-message-server {
+    border-radius: 20px;
+}
+
+.direct-btn {
+    background-color: #FFF9C4;
+    margin: 5px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.direct-btn:hover {
+    background-color: #FFF176;
+}
+
+.direct-btn:active {
+    background-color: #FFF59D;
+}

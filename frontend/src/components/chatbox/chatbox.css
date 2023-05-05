@@ -1,0 +1,40 @@
+.chat-box-container {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    height: 550px;
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 5px black;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.chat-box-bottom input {
+    border-radius: 15px;
+    padding: 10px;
+    flex: 1;
+    outline: none;
+}
+
+.chat-box-bottom button {
+    margin: 5px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    height: 45px;
+    width: 45px;
+}
+
+.s2t-mic-btn:hover .s2t-mic-btn-icon {
+    color: #EF5350;
+}
+
+.speach-btn:hover .speach-btn-icon {
+    color: #EF5350;
+}
+
+.chat-box-middle {
+    overflow-y: auto;
+    overflow-wrap: break-word;
+}

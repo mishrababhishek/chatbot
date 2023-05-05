@@ -1,0 +1,430 @@
+[
+ {
+  "intent": "ai&ds_department",
+  "questions": [
+   "ai&ds department?",
+   "ai&ds engineering course ?",
+   "about ai&ds engineering",
+   "what about ai&ds engineering ?",
+   "ai&ds engineering"
+  ]
+ },
+ {
+  "intent": "ai&ds_lab",
+  "questions": [
+   "ai&ds engineering lab",
+   "lab in ai&ds engineering",
+   "how many labs are their in ai&ds department",
+   "which are the lab in ai&ds engineering"
+  ]
+ },
+ {
+  "intent": "ai&ds_seat",
+  "questions": [
+   "how many seat are their inai&ds engineering",
+   "number of seat in ai&ds engineering",
+   "strength of ai&ds engineering"
+  ]
+ },
+ {
+  "intent": "ai&ds_intake",
+  "questions": [
+   "how much intake is their in ai&ds engineering",
+   "number of intake in ai&ds engineering"
+  ]
+ },
+ {
+  "intent": "ai&ds_staff",
+  "questions": [
+   "How many staff are their in ai&ds engineering",
+   "Number of staff inai&ds engineering",
+   "staff inai&ds engineering",
+   "number of staff in ai&ds engineering"
+  ]
+ },
+ {
+  "intent": "ai&ds_eligibility criteria",
+  "questions": [
+   "eligibility criteria for ai&ds engineering"
+  ]
+ },
+ {
+  "intent": "ai&ds_Fee",
+  "questions": [
+   "ai&ds engineering fee",
+   "fee strucutre of ai&ds engineering",
+   "what is the fee for ai&ds engineering"
+  ]
+ },
+ {
+  "intent": "ai&ds_duration",
+  "questions": [
+   "duration of ai&ds engineering",
+   "ai&ds engineering duration"
+  ]
+ },
+ {
+  "intent": "ai&ds_located",
+  "questions": [
+   "where is ai&ds engineering",
+   "where is ai&ds engineering located in college",
+   "strength of ai&ds engineering"
+  ]
+ },
+ {
+  "intent": "civil_department",
+  "questions": [
+   "civil department?",
+   "civil engineering course ?",
+   "about civil engineering",
+   "what about civil engineering ?",
+   "civil engineering"
+  ]
+ },
+ {
+  "intent": "civil_lab",
+  "questions": [
+   "civil engineering lab",
+   "lab in civil engineering",
+   "how many labs are their in civil department",
+   "which are the lab in civil engineering"
+  ]
+ },
+ {
+  "intent": "civil_seat",
+  "questions": [
+   "how many seat are their in civil engineering",
+   "number of seat in civil engineering",
+   "strength of civil engineering"
+  ]
+ },
+ {
+  "intent": "civil_intake",
+  "questions": [
+   "how many intake are their in civil engineering",
+   "number of intake in civil engineering"
+  ]
+ },
+ {
+  "intent": "civil_Fee",
+  "questions": [
+   "civil engineering fee",
+   "fee strucutre of civil engineering",
+   "what is the fee for civil engineering"
+  ]
+ },
+ {
+  "intent": "civil_staff",
+  "questions": [
+   "how many staff are their in civil engineering",
+   "number of staff in civil engineering",
+   "staff in civil engineering",
+   "number of staff in civil engineering"
+  ]
+ },
+ {
+  "intent": "civil_eligibility_criteria",
+  "questions": [
+   "eligibility criteria for civil engineering"
+  ]
+ },
+ {
+  "intent": "civil_duration",
+  "questions": [
+   "duration of civil engineering",
+   "civil engineering duration"
+  ]
+ },
+ {
+  "intent": "civil_located",
+  "questions": [
+   "where is civil engineering",
+   "where is civil engineering located in college",
+   "strength of civil engineering"
+  ]
+ },
+ {
+  "intent": "computer_department",
+  "questions": [
+   "compuyer engineering",
+   "computer degree"
+  ]
+ },
+ {
+  "intent": "computer_fee",
+  "questions": [
+   "computer engineering fee",
+   "fee structure of computer engineering",
+   "what is the fee for computer engineering"
+  ]
+ },
+ {
+  "intent": "computer_lab",
+  "questions": [
+   "computer engineering lab",
+   "lab in computer engineering",
+   "how many labs are their in computer department",
+   "which are the lab in computer engineering"
+  ]
+ },
+ {
+  "intent": "computer_seat",
+  "questions": [
+   "how many seat are their in computer engineering",
+   "number of seat in computer engineering",
+   "strength of computer engineering"
+  ]
+ },
+ {
+  "intent": "computer_intake",
+  "questions": [
+   "how many intake are their in computer engineering",
+   "number of intake in computer engineering"
+  ]
+ },
+ {
+  "intent": "computer_staff",
+  "questions": [
+   "How many staff are their in computer engineering",
+   "Number of staff in computer engineering",
+   "staff in computer engineering",
+   "number of staff in computer engineering"
+  ]
+ },
+ {
+  "intent": "computer_eligibility_criteria",
+  "questions": [
+   "eligibility criteria for computer engineering"
+  ]
+ },
+ {
+  "intent": "computer_duration",
+  "questions": [
+   "duration of computer engineering",
+   "computer engineering  duration"
+  ]
+ },
+ {
+  "intent": "computer_location",
+  "questions": [
+   "where is computer engineering",
+   "where is computer engineering located in college",
+   "strength of computer engineering"
+  ]
+ },
+ {
+  "intent": "help",
+  "questions": [
+   "help",
+   "i do need help",
+   "i need help",
+   "please",
+   "please help me",
+   "pls help me",
+   "pls guide me",
+   "please guide me",
+   "can you help me",
+   "could you help me",
+   "will you help me"
+  ]
+ },
+ {
+  "intent": "admission_enquiry",
+  "questions": [
+   "admission process?",
+   "admission 2024",
+   "admission form for 2024",
+   "computer engineering admission process",
+   "electrical engineering admission process",
+   "civil engineering admission process",
+   "mechanical engineering admission process",
+   "it engineering admission process"
+  ]
+ },
+ {
+  "intent": "about_college",
+  "questions": [
+   "about college",
+   "information regarding college",
+   "college",
+   "college information"
+  ]
+ },
+ {
+  "intent": "courses",
+  "questions": [
+   "courses offered in college",
+   "which courses are available in college",
+   "which departments are available in college",
+   "how many departments are available in college",
+   "courses"
+  ]
+ },
+ {
+  "intent": "contact",
+  "questions": [
+   "contact"
+  ]
+ },
+ {
+  "intent": "scholarship",
+  "questions": [
+   "scholarship",
+   "apply to scholarship"
+  ]
+ },
+ {
+  "intent": "department",
+  "questions": [
+   "department of college",
+   "how many department are there",
+   "what are all the departments in college?",
+   "which department are in college?",
+   "how many engineering department are there?"
+  ]
+ },
+ {
+  "intent": "not_department",
+  "questions": [
+   "how many not department are there",
+   "how many department are not there in college",
+   "what are all not the departments in college?",
+   "which department is not in college?"
+  ]
+ },
+ {
+  "intent": "electrical_department",
+  "questions": [
+   "electrical department?",
+   "electrical engineering course ?",
+   "about electrical engineering",
+   "what about electrical engineering ?",
+   "electrical engineering"
+  ]
+ },
+ {
+  "intent": "electrical_Fee",
+  "questions": [
+   "electrical engineering fee",
+   "fee strucutre of electrical engineering",
+   "what is the fee for electrical engineering"
+  ]
+ },
+ {
+  "intent": "electrical_duration",
+  "questions": [
+   "duration of electrical engineering",
+   "electrical engineering duration"
+  ]
+ },
+ {
+  "intent": "electrical_lab",
+  "questions": [
+   "electrical engineering lab",
+   "lab in Electrical engineering",
+   "how many labs are their in Electrical department",
+   "which are the lab in Electrical engineering"
+  ]
+ },
+ {
+  "intent": "electrical_seat",
+  "questions": [
+   "how many seat are their in electrical engineering",
+   "number of seat in electrical engineering",
+   "strength of electrical engineering"
+  ]
+ },
+ {
+  "intent": "electrical_intake",
+  "questions": [
+   "how many intake are their in electrical engineering",
+   "number of intake in electrical engineering"
+  ]
+ },
+ {
+  "intent": "electrical_staff",
+  "questions": [
+   "how many staff are their in electrical engineering",
+   "number of staff in electrical engineering",
+   "staff in electrical engineering",
+   "number of staff in electrical engineering"
+  ]
+ },
+ {
+  "intent": "electrical_eligibility_criteria",
+  "questions": [
+   "eligibility criteria for electrical engineering"
+  ]
+ },
+ {
+  "intent": "electrical_located",
+  "questions": [
+   "where is electrical engineering",
+   "where is electrical engineering located in college",
+   "strength of electrical engineering"
+  ]
+ },
+ {
+  "intent": "mechanical_department",
+  "questions": [
+   "mechanical Department?",
+   "mechanical Engineering course ?",
+   "about mechanical engineering",
+   "what about mechanical engineering ?",
+   "mechanical engineering"
+  ]
+ },
+ {
+  "intent": "mechanical_lab",
+  "questions": [
+   "mechaincal engineering lab",
+   "lab in mechanical engineering",
+   "how many labs are their in mechanical department",
+   "which are the lab in mechanical engineering"
+  ]
+ },
+ {
+  "intent": "mechanical_duration",
+  "questions": [
+   "duration of mechanical engineering",
+   "mechanical engineering duration"
+  ]
+ },
+ {
+  "intent": "mechanical_Fee",
+  "questions": [
+   "mechanical engineering fee",
+   "fee strucutre of mechanical engineering",
+   "what is the fee for mechanical engineering"
+  ]
+ },
+ {
+  "intent": "mechanical_seat",
+  "questions": [
+   "how many seat are their in mechanical engineering",
+   "number of seat in mechanical engineering"
+  ]
+ },
+ {
+  "intent": "mechanical_intake",
+  "questions": [
+   "how many intake are their in mechanical engineering",
+   "number of intake in mechanical engineering"
+  ]
+ },
+ {
+  "intent": "mechanical_staff",
+  "questions": [
+   "how many staff are their in mechanical engineering",
+   "number of staff in mechanical engineering",
+   "staff in mechanical engineering",
+   "number of staff in mechanical engineering"
+  ]
+ },
+ {
+  "intent": "mechanical_eligibility_criteria",
+  "questions": [
+   "eligibility criteria for mechanical engineering"
+  ]
+ }
+]
