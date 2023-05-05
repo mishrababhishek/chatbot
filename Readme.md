@@ -10,26 +10,8 @@ JIT Chatbot is a web application that answers students' basic queries about thei
 - **React**: a popular JavaScript library for building user interfaces.
 - **Tailwind CSS**: a utility-first CSS framework used to design and style the user interface.
 
-## App.js
-
-This is the main file for the frontend of the JIT Chatbot. It contains the state for the chatbox and the functions to toggle the chatbox window.
-
-## Chatbox.js
-
-This file contains the logic for the chatbox window, including sending and receiving messages and handling actions.
-
-## Chat.js
-
-This file contains the logic for individual chat messages, including distinguishing between server and client messages and displaying related actions.
-
-## Info.js
-
-This file contains the information about the JIT Chatbot and the components used to build it.
 
 ## Authors
 
 - [Abhishek Mishra](https://github.com/mishrababhishek)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
