@@ -6,7 +6,7 @@ import uvicorn
 import random
 
 __interpreter = Interpreter.load_interpreter("new_lemmatize")
-
+__interpreter.parse("hello")
 __app = FastAPI(title="JITBOT", description="A College Enquiry Chat bot of JIT College Nashik")
 
 origins = [
