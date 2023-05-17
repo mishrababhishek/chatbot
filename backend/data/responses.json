@@ -1,320 +1,306 @@
 [
  {
-  "intent": "ai&ds_department",
+  "intent": "welcomegreeting",
   "responses": [
-   "What do you want to know about Computer Engineering? You can choose one of the following."
-  ]
- },
- {
-  "intent": "ai&ds_lab",
-  "responses": [
-   "The college has well equipped and functional Computer Labs consisting of Unix Lab, Computer Programming Lab, Data Structural Lab, Computer Graphics Lab, OOP Lab, Operating System Lab, Data Processing Lab, System Programming Lab, DBMS Lab, Compiler Design Lab, Internet programming Lab, Artificial Intelligence Lab, Internet Surfing Lab, etc."
-  ]
- },
- {
-  "intent": "ai&ds_seat",
-  "responses": [
-   "The number of seats in B.E - AI&DS offered at JIT college are 120"
-  ]
- },
- {
-  "intent": "ai&ds_intake",
-  "responses": [
-   "The number of intake in B.E - AI&DS offered at JIT college are 120"
-  ]
- },
- {
-  "intent": "ai&ds_staff",
-  "responses": [
-   "Total number of 12 staff are their in AI&DS engineering "
-  ]
- },
- {
-  "intent": "ai&ds_eligibility criteria",
-  "responses": [
-   "The criteria for B.E AI&DS engineering is minimum aggregate of 60% in 10+2 and diploma "
-  ]
- },
- {
-  "intent": "ai&ds_Fee",
-  "responses": [
-   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year "
-  ]
- },
- {
-  "intent": "ai&ds_duration",
-  "responses": [
-   "The duration for AI&DS engineering offered at JIT college is 4 Years "
-  ]
- },
- {
-  "intent": "ai&ds_located",
-  "responses": [
-   "You can find the AI&DS engineering at the First floor of main building on left hand side from morning 9 AM to 5 PM MONDAY to SATURDAY. Contact to XYZ 1234554321"
-  ]
- },
- {
-  "intent": "civil_department",
-  "responses": [
-   "What do you want to know about Computer Engineering? You can choose one of the following."
-  ]
- },
- {
-  "intent": "civil_lab",
-  "responses": [
-   "Following Labs are there for the students pursuing B.Tech in civil Engineering: Material Lab, Fluid Mechanics Lab, Surveying Lab, Engineering Geology Lab, Drawing Lab, Geoinformatics Lab, Hydraulic Machine Lab, Geotechnical Engineering Lab, Environmental Engineering Lab, Transportation Engineering Lab, Structural Detailing Lab, Cad Lab-1, Quantity Survey & Estimation Lab"
-  ]
- },
- {
-  "intent": "civil_seat",
-  "responses": [
-   "The number of seats in B.E - civil offered at JIT college are 60"
-  ]
- },
- {
-  "intent": "civil_intake",
-  "responses": [
-   "The number of intake in B.E -civil offered at JIT college are 60"
-  ]
- },
- {
-  "intent": "civil_Fee",
-  "responses": [
-   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year "
-  ]
- },
- {
-  "intent": "civil_staff",
-  "responses": [
-   "Total number of 12 staff are their in civil engineering "
-  ]
- },
- {
-  "intent": "civil_eligibility_criteria",
-  "responses": [
-   "The criteria for B.E civil engineering is minimum aggregate of 60% in 10+2 and diploma "
-  ]
- },
- {
-  "intent": "civil_duration",
-  "responses": [
-   "The duration for Civil engineering offered at JIT college is 4 Years "
-  ]
- },
- {
-  "intent": "civil_located",
-  "responses": [
-   "You can find the civil engineering at the First floor of main building on Right hand side from morning 9 AM to 5 PM MONDAY to SATURDAY. Contact to XYZ 1234554321"
-  ]
- },
- {
-  "intent": "computer_department",
-  "responses": [
-   "What do you want to know about Computer Engineering? You can choose one of the following."
-  ]
- },
- {
-  "intent": "computer_fee",
-  "responses": [
-   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year"
-  ]
- },
- {
-  "intent": "computer_lab",
-  "responses": [
-   "The college has well equipped and functional Computer Labs consisting of Unix Lab, Computer Programming Lab, Data Structural Lab, Computer Graphics Lab, OOP Lab, Operating System Lab, Data Processing Lab, System Programming Lab, DBMS Lab, Compiler Design Lab, Internet programming Lab, Artificial Intelligence Lab, Internet Surfing Lab, etc."
-  ]
- },
- {
-  "intent": "computer_seat",
-  "responses": [
-   "The number of seats in B.E - computer offered at JIT college are 120"
-  ]
- },
- {
-  "intent": "computer_intake",
-  "responses": [
-   "The number of intake in B.E - computer offered at JIT college are 120"
-  ]
- },
- {
-  "intent": "computer_staff",
-  "responses": [
-   "Total number of 12 staff are their in computer engineering "
-  ]
- },
- {
-  "intent": "computer_eligibility_criteria",
-  "responses": [
-   "The criteria for B.E computer engineering is minimum aggregate of 60% in 10+2 and Diploma"
-  ]
- },
- {
-  "intent": "computer_duration",
-  "responses": [
-   "The duration for Computer engineering offered at JIT college is 4 Years"
-  ]
- },
- {
-  "intent": "computer_location",
-  "responses": [
-   "You can find the computer engineering at the First floor of main building on left hand side from morning 9 AM to 5 PM MONDAY to SATURDAY. Contact to XYZ 1234554321"
-  ]
- },
- {
-  "intent": "help",
-  "responses": [
-   "Hi ! How may i help you."
-  ]
- },
- {
-  "intent": "admission_enquiry",
-  "responses": [
-   "Go to following link for further process- https://docs.google.com/forms/d/e/1FAIpQLSc--tMkJF6E2WHr5pu024taG0hDYZvNNgW2ue0elEweYK5PmQ/viewform"
+   "Hello, Kindly choose from one of the following to get started."
   ]
  },
  {
   "intent": "about_college",
   "responses": [
-   "Go to following link for further process-https://www.jitnashik.edu.in/"
+   "Jawahar Education Society's Institute of Technology,Management & Research (JIT,Nashik) was established in 2012 under the state of maharashtra education & recognized by University Grants Commission (UGC). For more details please choose from below options."
   ]
  },
  {
-  "intent": "courses",
+  "intent": "student_strength",
   "responses": [
-   "Following courses are offered by college: COMPUTER Engineering, IT Engineering, CIVIL Engineering, ELECTRICAL Engineering, MECHANICAL Engineering, AI & DATA SCIENCE."
+   "We have 800+ students studying with us."
+  ]
+ },
+ {
+  "intent": "campus_visit",
+  "responses": [
+   "To visit the campus you can proceed by choosing further below options."
+  ]
+ },
+ {
+  "intent": "address",
+  "responses": [
+   "The address of JIT is: Jawahar Education Society\u00e2\u20ac\u2122s,Institute of Technology, Management & Research, Survey No 48, Gowardhan, Gangapur Road, Nashik - 422 222. Maharashtra, India"
+  ]
+ },
+ {
+  "intent": "visit_hours",
+  "responses": [
+   "You can visit us between 9 AM to 2 PM from MONDAY to SATURDAY."
   ]
  },
  {
   "intent": "contact",
   "responses": [
-   "Go to following link for further process-https://www.jitnashik.edu.in/contact_us.php"
+   "You can contact us on: 0253 2970077, 0253 2970078 , 9022025101 , Email us on: jitnashik2012@gmail.com, principaljitnashik@rediffmail.com"
   ]
  },
  {
-  "intent": "scholarship",
+  "intent": "course",
   "responses": [
-   "Go to following link for further process-https://mahadbt.maharashtra.gov.in/Login/Login"
+   "We provide below mentioned courses. Please select one to know more."
   ]
  },
  {
-  "intent": "department",
+  "intent": "computer_engineering",
   "responses": [
-   "Computer Engineering, IT Engineering, Electrical Engineering, Mechanical Engineering, E&T Engineering, AI&DS Engineering, Civil Engineering"
+   "What do you want to know about Computer engineering? Please choose further to know."
   ]
  },
  {
-  "intent": "not_department",
+  "intent": "computer_intake",
   "responses": [
-   "Chemical Engineering, Aerospace Engineering, Agricultural Engineering, Biomedical Engineering, etc"
+   "Please select one from below options"
   ]
  },
  {
-  "intent": "electrical_department",
+  "intent": "computer_first",
   "responses": [
-   "What do you want to know about Computer Engineering? You can choose one of the following."
+   "JIT has intake of 120 students for First Year"
   ]
  },
  {
-  "intent": "electrical_Fee",
+  "intent": "computer_dsy",
   "responses": [
-   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year "
+   "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
   ]
  },
  {
-  "intent": "electrical_duration",
+  "intent": "computer_fee",
   "responses": [
-   "The duration for Electrical engineering offered at JIT college is 4 Years "
+   "Select a category to know the fee"
   ]
  },
  {
-  "intent": "electrical_lab",
+  "intent": "open_fee",
   "responses": [
-   "Following Labs are there for the students pursuing B.E in Electrical Engineering: Control System Lab, Electric Drives Lab, Basic Electrical Lab, EMEC Lab, Network Lab, Power Electronics Lab & Power System Protection Lab."
+   "Fee for an OPEN category student is : RS 72000 (Excluding university exam fee)"
   ]
  },
  {
-  "intent": "electrical_seat",
+  "intent": "obc_fee",
   "responses": [
-   "The number of seats in B.E - Electrical offered at JIT college are 60"
+   "Fee for an OBC category student is : RS 55000 (Excluding university exam fee)"
   ]
  },
  {
-  "intent": "electrical_intake",
+  "intent": "scst_fee",
   "responses": [
-   "The number of intake in B.E - electrical offered at JIT college are 120"
+   "Fee for a SC/ST category student is RS ABC (Excluding university exam fee)"
   ]
  },
  {
-  "intent": "electrical_staff",
+  "intent": "computer_criteria",
   "responses": [
-   "Total number of 12 staff are their in electrical engineering "
+   "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
   ]
  },
  {
-  "intent": "electrical_eligibility_criteria",
+  "intent": "computer_duration",
   "responses": [
-   "The criteria for B.E Electrical engineering is minimum aggregate of 60% in 10+2 "
+   "The duration for the Engineering offered at JIT is 4 years."
   ]
  },
  {
-  "intent": "electrical_located",
+  "intent": "mechanical_engineering",
   "responses": [
-   "You can find the Electrical engineering at the entrance of main building on right hand side from morning 9 AM to 5 PM MONDAY to SATURDAY. Contact to XYZ 1234554321"
-  ]
- },
- {
-  "intent": "mechanical_department",
-  "responses": [
-   "What do you want to know about Computer Engineering? You can choose one of the following."
-  ]
- },
- {
-  "intent": "mechanical_lab",
-  "responses": [
-   "Following Labs are there for the students pursuing B.E in Mechanical Engineering: Production Lab, Design Lab, Thermal and Fluid Lab."
-  ]
- },
- {
-  "intent": "mechanical_duration",
-  "responses": [
-   "The duration for Mechanical engineering offered at JIT college is 4 Years "
-  ]
- },
- {
-  "intent": "mechanical_Fee",
-  "responses": [
-   "The academic fee for B.E offered at JIT college is Rs. 75,500/- per year "
-  ]
- },
- {
-  "intent": "mechanical_seat",
-  "responses": [
-   "The number of seats in B.E - Mechanical offered at JIT college are 120"
+   "What do you want to know about Mechanical engineering? Please choose further to know."
   ]
  },
  {
   "intent": "mechanical_intake",
   "responses": [
-   "The number of intake in B.E - Mechanical offered at JIT college are 120"
+   "Please select one from below options"
   ]
  },
  {
-  "intent": "mechanical_staff",
+  "intent": "mechanical_first",
   "responses": [
-   "Total number of 12 staff are their in mechanical engineering "
+   "JIT has intake of 120 students for First Year"
   ]
  },
  {
-  "intent": "mechanical_eligibility_criteria",
+  "intent": "mechanical_dsy",
   "responses": [
-   "The criteria for B.E Mechanical engineering is minimum aggregate of 60% in 10+2 "
+   "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
+  ]
+ },
+ {
+  "intent": "mechanical_fee",
+  "responses": [
+   "Select a category to know the fee"
+  ]
+ },
+ {
+  "intent": "mechanical_criteria",
+  "responses": [
+   "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
+  ]
+ },
+ {
+  "intent": "mechanical_duration",
+  "responses": [
+   "The duration for the Engineering offered at JIT is 4 years."
+  ]
+ },
+ {
+  "intent": "civil_engineering",
+  "responses": [
+   "What do you want to know about Civil engineering? Please choose further to know."
+  ]
+ },
+ {
+  "intent": "civil_intake",
+  "responses": [
+   "Please select one from below options"
+  ]
+ },
+ {
+  "intent": "civil_first",
+  "responses": [
+   "JIT has intake of 120 students for First Year"
+  ]
+ },
+ {
+  "intent": "civil_dsy",
+  "responses": [
+   "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
+  ]
+ },
+ {
+  "intent": "civil_fee",
+  "responses": [
+   "Select a category to know the fee"
+  ]
+ },
+ {
+  "intent": "civil_criteria",
+  "responses": [
+   "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
+  ]
+ },
+ {
+  "intent": "civil_duration",
+  "responses": [
+   "The duration for the Engineering offered at JIT is 4 years."
+  ]
+ },
+ {
+  "intent": "electrical_engineering",
+  "responses": [
+   "What do you want to know about Electrical engineering? Please choose further to know."
+  ]
+ },
+ {
+  "intent": "electrical_intake",
+  "responses": [
+   "Please select one from below options"
+  ]
+ },
+ {
+  "intent": "electrical_first",
+  "responses": [
+   "JIT has intake of 120 students for First Year"
+  ]
+ },
+ {
+  "intent": "electrical_dsy",
+  "responses": [
+   "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
+  ]
+ },
+ {
+  "intent": "electrical_fee",
+  "responses": [
+   "Select a category to know the fee"
+  ]
+ },
+ {
+  "intent": "electrical_criteria",
+  "responses": [
+   "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
+  ]
+ },
+ {
+  "intent": "electrical_duration",
+  "responses": [
+   "The duration for the Engineering offered at JIT is 4 years."
+  ]
+ },
+ {
+  "intent": "ai&ds_engineering",
+  "responses": [
+   "What do you want to know about AI&DS? Please choose further to know."
+  ]
+ },
+ {
+  "intent": "ai&ds_intake",
+  "responses": [
+   "Please select one from below options"
+  ]
+ },
+ {
+  "intent": "ai&ds_first",
+  "responses": [
+   "JIT has intake of 120 students for First Year"
+  ]
+ },
+ {
+  "intent": "ai&ds_dsy",
+  "responses": [
+   "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
+  ]
+ },
+ {
+  "intent": "ai&ds_fee",
+  "responses": [
+   "Select a category to know the fee"
+  ]
+ },
+ {
+  "intent": "ai&ds_criteria",
+  "responses": [
+   "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
+  ]
+ },
+ {
+  "intent": "ai&ds_duration",
+  "responses": [
+   "The duration for the Engineering offered at JIT is 4 years."
+  ]
+ },
+ {
+  "intent": "admission_enquiry",
+  "responses": [
+   "Please follow the link for admission enquiry process- https://www.jitnashik.edu.in/admission.php"
+  ]
+ },
+ {
+  "intent": "scholorship",
+  "responses": [
+   "The scholorship is provided to CAP enrolled students only. College follows the MAHADBT scholorships provided by government of maharashtra. Click on the link to know more: https://mahadbt.maharashtra.gov.in/"
+  ]
+ },
+ {
+  "intent": "endgreeting",
+  "responses": [
+   "Goodbye! have a good day. Hope to see you again."
+  ]
+ },
+ {
+  "intent": "thankgreet",
+  "responses": [
+   "It's my pleasure to help you. See you soon."
   ]
  },
  {
     "intent": "no_indent",
-    "responses": [
-        "Sorry I was not able to understant!, please try again"
-    ]
+    "responses": "Sorry!. I was not able to undertedstand your query!"
  }
 ]

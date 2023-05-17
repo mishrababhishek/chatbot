@@ -1,48 +1,86 @@
 [
  {
-  "intent": "ai&ds_department",
+  "intent": "welcomegreeting",
   "related": [
    {
-    "text": "Intake",
-    "tag": "ai&ds_intake"
+    "text": "About College",
+    "tag": "about_college"
    },
    {
-    "text": "Fee Structure",
-    "tag": "ai&ds_fee"
+    "text": "Contact",
+    "tag": "contact"
    },
    {
-    "text": "Eligibilty Criteria",
-    "tag": "ai&ds_eligibility_criteria"
+    "text": "Course",
+    "tag": "course"
    },
    {
-    "text": "Duration",
-    "tag": "ai&ds_duration"
+    "text": "Admission Enquiry",
+    "tag": "admission_enquiry"
+   },
+   {
+    "text": "Scholorship",
+    "tag": "scholorship"
    }
   ]
  },
  {
-  "intent": "civil_department",
+  "intent": "about_college",
   "related": [
    {
-    "text": "Intake",
-    "tag": "civil_intake"
+    "text": "Student Strength",
+    "tag": "student_strength"
    },
    {
-    "text": "Fee Structure",
-    "tag": "civil_fee"
+    "text": "Address",
+    "tag": "address"
    },
    {
-    "text": "Eligibilty Criteria",
-    "tag": "civil_eligibility_criteria"
-   },
-   {
-    "text": "Duration",
-    "tag": "civil_duration"
+    "text": "Campus visit",
+    "tag": "campus_visit"
    }
   ]
  },
  {
-  "intent": "computer_department",
+  "intent": "campus_visit",
+  "related": [
+   {
+    "text": "Address",
+    "tag": "address"
+   },
+   {
+    "text": "Visit Hours",
+    "tag": "visit_hours"
+   }
+  ]
+ },
+ {
+  "intent": "course",
+  "related": [
+   {
+    "text": "Computer Engineering",
+    "tag": "computer_engineering"
+   },
+   {
+    "text": "Mechanical Engineering",
+    "tag": "mechanical_engineering"
+   },
+   {
+    "text": "Civil Engineering",
+    "tag": "civil_engineering"
+   },
+   {
+    "text": "Electrical Engineering",
+    "tag": "electrical_engineering"
+   },
+   {
+    "text": "AI&DS",
+    "tag": "ai&ds_engineering"
+   }
+  ]
+ },
+ {
+  "intent": "computer_engineering",
   "related": [
    {
     "text": "Intake",
@@ -53,88 +91,188 @@
     "tag": "computer_fee"
    },
    {
-    "text": "Eligibilty Criteria",
-    "tag": "computer_eligibility_criteria"
+    "text": "Eligibility Criteria",
+    "tag": "computer_criteria"
    },
    {
-    "text": "Duration",
+    "text": "Course Duration",
     "tag": "computer_duration"
-   }
-  ]
- },
- {
-  "intent": "help",
-  "related": [
-   {
-    "text": "AboutCollege",
-    "tag": "about_college"
    },
    {
-    "text": "course",
-    "tag": "courses"
-   },
-   {
-    "text": "AdmissionEnquiry",
+    "text": "Admission",
     "tag": "admission_enquiry"
-   },
-   {
-    "text": "Contact",
-    "tag": "contact"
-   },
-   {
-    "text": "ScholarShip",
-    "tag": "scholarship"
    }
   ]
  },
  {
-  "intent": "department",
+  "intent": "computer_intake",
   "related": [
    {
-    "text": "computer",
-    "tag": "computer_department"
+    "text": "FE",
+    "tag": "computer_first"
    },
    {
-    "text": "civil",
-    "tag": "civil_department"
-   },
-   {
-    "text": "electrical",
-    "tag": "elecrtrical_department"
-   },
-   {
-    "text": "mechanical",
-    "tag": "mechanical_department"
-   },
-   {
-    "text": "AI&DS",
-    "tag": "ai&ds_department"
+    "text": "DSY",
+    "tag": "computer_dsy"
    }
   ]
  },
  {
-  "intent": "not_department",
+  "intent": "computer_fee",
   "related": [
    {
-    "text": "computer",
-    "tag": "computer_department"
+    "text": "OPEN",
+    "tag": "open_fee"
    },
    {
-    "text": "civil",
-    "tag": "civil_department"
+    "text": "OBC",
+    "tag": "obc_fee"
    },
    {
-    "text": "mechanical",
-    "tag": "mechanical_department"
-   },
-   {
-    "text": "AI&DS",
-    "tag": "ai&ds_department"
+    "text": "SC/ST",
+    "tag": "scst_fee"
    }
   ]
  },
  {
-  "intent": "electrical_department",
+  "intent": "computer_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "mechanical_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "mechanical_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "mechanical_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "mechanical_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "mechanical_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "mechanical_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "civil_engineering",
+  "related": [
+   {
+    "text": "Intake",
+    "tag": "civil_intake"
+   },
+   {
+    "text": "Fee Structure",
+    "tag": "civil_fee"
+   },
+   {
+    "text": "Eligibility Criteria",
+    "tag": "civil_criteria"
+   },
+   {
+    "text": "Course Duration",
+    "tag": "civil_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "civil_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "civil_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "civil_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "civil_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "civil_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "electrical_engineering",
   "related": [
    {
     "text": "Intake",
@@ -145,34 +283,145 @@
     "tag": "electrical_fee"
    },
    {
-    "text": "Eligibilty Criteria",
-    "tag": "electrical_eligibility_criteria"
+    "text": "Eligibility Criteria",
+    "tag": "electrical_criteria"
    },
    {
-    "text": "Duration",
+    "text": "Course Duration",
     "tag": "electrical_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "electrical_enquiry"
    }
   ]
  },
  {
-  "intent": "mechanical_department",
+  "intent": "electrical_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "electrical_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "electrical_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "electrical_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "electrical_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+  "intent": "ai&ds_engineering",
   "related": [
    {
     "text": "Intake",
-    "tag": "mechnaical_intake"
+    "tag": "ai&ds_intake"
    },
    {
     "text": "Fee Structure",
-    "tag": "mechanical_fee"
+    "tag": "ai&ds_fee"
    },
    {
-    "text": "Eligibilty Criteria",
-    "tag": "mechanical_eligibility_criteria"
+    "text": "Eligibility Criteria",
+    "tag": "ai&ds_criteria"
    },
    {
-    "text": "Duration",
-    "tag": "mechanical_duration"
+    "text": "Course Duration",
+    "tag": "ai&ds_duration"
+   },
+   {
+    "text": "Admission",
+    "tag": "ai&ds_enquiry"
    }
   ]
+ },
+ {
+  "intent": "ai&ds_intake",
+  "related": [
+   {
+    "text": "FE",
+    "tag": "ai&ds_first"
+   },
+   {
+    "text": "DSY",
+    "tag": "ai&ds_dsy"
+   }
+  ]
+ },
+ {
+  "intent": "ai&ds_fee",
+  "related": [
+   {
+    "text": "OPEN",
+    "tag": "open_fee"
+   },
+   {
+    "text": "OBC",
+    "tag": "obc_fee"
+   },
+   {
+    "text": "SC/ST",
+    "tag": "scst_fee"
+   }
+  ]
+ },
+ {
+  "intent": "ai&ds_duration",
+  "related": [
+   {
+    "text": "Admission",
+    "tag": "admission_enquiry"
+   }
+  ]
+ },
+ {
+    "intent": "no_indent",
+    "related": [
+        {
+            "text": "About College",
+            "tag": "about_college"
+        },
+        {
+            "text": "Contact",
+            "tag": "contact"
+        },
+        {
+            "text": "Course",
+            "tag": "course"
+        },
+        {
+            "text": "Admission Enquiry",
+            "tag": "admission_enquiry"
+        },
+        {
+            "text": "Scholorship",
+            "tag": "scholorship"
+        }
+    ]
  }
 ]
