@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./chatbox.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,14 +14,9 @@ export default function ChatBox(props) {
   const [chatBoxValue, setChatBoxValue] = useState("");
   const [micActive, setMicActive] = useState(false);
   const locked = useRef(false);
-  const inputRef = useRef(null)
-  const [chats, setChats] = useState([
-    {
-      created_by: "server",
-      message: "Hey! How May i Help You.....",
-      related: null,
-    },
-  ]);
+  const inputRef = useRef(null);
+  const divRef = useRef(null)
+  const [chats, setChats] = useState([]);
 
   const { listen, listening, stop, supported } = useSpeechRecognition({
     onResult: (result) => {
@@ -29,7 +24,7 @@ export default function ChatBox(props) {
     },
   });
 
-  const { speak } = useSpeechSynthesis()
+  const { speak } = useSpeechSynthesis();
 
   function updateChats(created_by, message, related = null) {
     setChats((chats) => [
@@ -40,14 +35,14 @@ export default function ChatBox(props) {
       },
       ...chats,
     ]);
-    if(micActive && created_by === "server") {
-      console.log("sdlfkjsld")
-      speak({ text: message })
+    if (micActive && created_by === "server") {
+      console.log("sdlfkjsld");
+      speak({ text: message });
     }
   }
 
   function onDataReceived(data) {
-    setChatBoxValue("")
+    setChatBoxValue("");
     if (data["status"] === 200) {
       const related = Object.values(data["related"]);
       if (related.length === 0) {
@@ -56,10 +51,19 @@ export default function ChatBox(props) {
         updateChats("server", data["message"], related);
       }
     } else if (data["status"] === 400) {
-      updateChats("server", data["message"])
+      updateChats("server", data["message"]);
     }
     locked.current = false;
   }
+
+  useEffect(() => {
+    if(chats.length === 0) {
+      ChatApi.direct_request("welcomegreeting").then(onDataReceived)
+    }
+    if(divRef.current){
+      divRef.current.scrollTop = 0
+    }
+  }, [chats.length])
 
   return (
     <div
@@ -94,17 +98,21 @@ export default function ChatBox(props) {
           <FontAwesomeIcon className="text-xl" icon={faXmark} />
         </button>
       </div>
-      <div className="chat-box-middle flex-1">
+      <div className="chat-box-middle flex-1" ref={divRef}>
         <div>
           {chats.map((item, index) => (
-            <Chat key={index} data={item} onAction={(klass, text) => {
-              if(locked.current) {
-                return
-              }
-              locked.current = true
-              updateChats("client", text)
-              ChatApi.direct_request(klass).then(onDataReceived)
-            }}/>
+            <Chat
+              key={index}
+              data={item}
+              onAction={(klass, text) => {
+                if (locked.current) {
+                  return;
+                }
+                locked.current = true;
+                updateChats("client", text);
+                ChatApi.direct_request(klass).then(onDataReceived);
+              }}
+            />
           ))}
         </div>
       </div>
@@ -140,7 +148,7 @@ export default function ChatBox(props) {
             }
             if (listening) {
               stop();
-              inputRef.current.focus()
+              inputRef.current.focus();
             } else {
               listen();
             }

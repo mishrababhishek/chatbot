@@ -5,7 +5,7 @@ import unittest
 
 class InterpreterTest(unittest.TestCase):
     def test_train_and_save_model(self):
-        Interpreter.create_new_interpreter("test")
+        Interpreter.create_new_interpreter("default")
         all_files = os.listdir("models/saved")
         passed = True if "test.json" in all_files else False
         self.assertEqual(passed, True, "Successfully Trained and Saved Model")

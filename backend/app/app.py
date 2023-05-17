@@ -63,7 +63,6 @@ async def direct(klass: str):
         if rel["intent"] == klass:
             related = rel["related"]
             break
-    print(response)
     return {
         "status": 200,
         "message": response,
