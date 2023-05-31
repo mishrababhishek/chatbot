@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from models.interpreter import Interpreter
 from data import data
 from app.greetings import get_updated_string
+from app.spelling_fix import correct_spelling
 import uvicorn
 import random
 
@@ -27,6 +28,7 @@ __app.add_middleware(
 @__app.get("/query/{q}")
 async def query(q: str):
     reply = {}
+    q = correct_spelling(q)
     try:
         klass = __interpreter.parse(q)
         response = ""

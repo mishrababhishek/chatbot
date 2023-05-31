@@ -36,7 +36,6 @@ export default function ChatBox(props) {
       ...chats,
     ]);
     if (micActive && created_by === "server") {
-      console.log("sdlfkjsld");
       speak({ text: message });
     }
   }
@@ -52,6 +51,9 @@ export default function ChatBox(props) {
       }
     } else if (data["status"] === 400) {
       updateChats("server", data["message"]);
+    }
+    else {
+      updateChats("server", data)
     }
     locked.current = false;
   }

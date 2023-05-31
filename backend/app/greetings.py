@@ -25,8 +25,7 @@ def get_updated_string(original_string: str):
 
         updated_string = ""
         temp = original_string.split(" ")
-        updated_string = "".join([e+" " for e in temp[1:]])
-        updated_string = f"{temp[0]} {greeting} {updated_string}"
+        updated_string = f"{temp[0]} {greeting} " + " ".join(temp[1:])
         return updated_string
     else:
         return "Unable to determine your timezone."
