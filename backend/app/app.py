@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from models.interpreter import Interpreter
 from data import data
+from app.greetings import get_updated_string
 import uvicorn
 import random
 
@@ -32,6 +33,8 @@ async def query(q: str):
         for res in data.responses:
             if res["intent"] == klass:
                 response = random.choice(res["responses"])
+                if res["intent"] == "welcomegreeting":
+                    response = get_updated_string(response)
                 break
         related = []
         for rel in data.related:
@@ -58,6 +61,8 @@ async def direct(klass: str):
     for res in data.responses:
         if res["intent"] == klass:
             response = random.choice(res["responses"])
+            if res["intent"] == "welcomegreeting":
+                response = get_updated_string(response)
             break
     for rel in data.related:
         if rel["intent"] == klass:
